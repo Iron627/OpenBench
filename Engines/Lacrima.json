@@ -4,13 +4,15 @@
     "source"  : "https://github.com/Iron627/Lacrima",
 
     "build" : {
-        "path"      : ""
+        "path"      : "",
+        "cpuflags"  : [],
+        "systems"   : ["Linux"]
     },
 
     "test_presets" : {
 
         "default" : {
-            "base_branch"     : "ob_18",
+            "base_branch"     : "main",
             "book_name"       : "UHO_Lichess_4852_v1.epd",
             "test_bounds"     : "[0.00, 2.00]",
             "test_confidence" : "[0.05, 0.05]",
